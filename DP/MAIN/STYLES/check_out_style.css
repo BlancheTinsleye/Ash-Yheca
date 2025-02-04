@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 30vw;
+    width: 1300px;
+}
+
+.box {
+    background-color: #1e7469;
+    color: #f6e5c3;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+}
+
+.info-cont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-info {
+    height: 620px;
+    width: 620px;
+}
+
+.product-image img {
+    width: 300px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.scroll-container {
+    max-height: 350px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.info-cont .tittle {
+    font-size: 34px;
+}
+.buyer-info .tittle {
+    font-size: 34px;
+}
+
+.form-cont label, .buyer-info label {
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 24px;
+    display: block;
+}
+
+.address {
+    margin-top: 30px;
+}
+.email {
+    margin-top: 70px;
+}
+
+.order-cont {
+    margin-top: 30px;
+}
+.order-cont .order {
+    font-size: 24px;
+}
+
+.total-section {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.total-section label {
+    font-size: 28px;
+    padding-right: 20px;
+}
+
+.total-section input {
+    background: #f6e5c3;
+    width: 120px;
+    height: 35px;
+
+    text-align: center;
+    font-size: 24px;
+    font-family: 'cubao', sans-serif;
+    color: #1e7469;
+}
+
+.cncl-ttl {
+    margin-top: 220px;
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.butt-cont {
+    padding-top: 230px;
+    padding-left: 30px;
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10vw;
+    height: 3vw;
+
+    margin-top: -1vw;
+    margin-left: -1vw;
+
+    font-size: 1.2vw;
+    background-color: #59b6a6;
+    color: #f6e5c3;
+
+    border-radius: 1vw;
+}
+
+.buy-button {
+    width: 12vw;
+    height: 3.5vw;
+
+    font-size: 30px;
+    background-color: #59b6a6;
+    color: #f6e5c3;
+
+    border-radius: 1vw;
+}
+
+.buy-button:hover, .cancel-button:hover {
+    opacity: 0.9;
+}
+
+.buyer-info {
+    background-color: #1e7469;
+    color: #f6e5c3;
+    padding: 20px;
+    border-radius: 8px;
+}

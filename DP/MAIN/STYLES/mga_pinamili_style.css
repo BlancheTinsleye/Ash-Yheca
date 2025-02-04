@@ -1,0 +1,38 @@
+
+
+.cont {
+    height: 760px;
+    width: 1350px;
+
+    /* background-color: blueviolet; */
+
+    /* border: 1px solid red; */
+}
+
+
+.ctgries {
+    /* background-color: pink; */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 2vb; */
+    width: 1380px;
+    padding: 0px;
+}
+
+.ctgry {
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.ctgry a{
+    color: #2e2e2e;
+    text-decoration: none;
+    margin: 1vb;
+}
+
+.ctgry.active {
+    background-color: #f0685e;
+    border-radius: 1vb;
+}

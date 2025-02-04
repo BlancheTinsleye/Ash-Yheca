@@ -1,0 +1,154 @@
+.busisiin_prdct_cont {
+    /* height: 70vh; */
+    width: auto;
+    background-color: #1a7a69;
+    margin: 30px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.img_nm_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f6e5c3;
+    margin: 1vb;
+
+    /* background-color: pink; */
+}
+
+.prdct_img {
+    height: 300px;
+    width: 300px;
+    margin: 3vb;
+}
+
+.prdct_nm {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+    text-align: center;
+    
+    width: 300px;
+}
+
+.info_bttn_cont {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border: 1px solid #f6e5c3;
+    margin: 1vb;
+}
+
+.info_cont {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.info_cont1, .dskrpsyn_bttn_cont {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border: 1px solid #f6e5c3;
+    margin: 1vb;
+}
+
+.info_cont2_form {
+    display: grid;
+    justify-content: right;
+    /* align-items: flex-end; */
+    flex-direction: column;
+    height: auto;
+    /* width: auto; */
+    border: 1px solid #f6e5c3;
+    margin: 1vb;
+    align-items: flex-end;
+}
+
+.prdct_id_txt, .prdct_stock_txt, .prdct_prc_txt, .prdct_grp_num_txt, .prdct_ktgry_txt, .dskrpsyn_txt {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+    padding: 2px;
+
+    margin: 1vb;
+}
+
+.show_prdct_id, .inp_prdct_stock, .php_txt, .inp_prdct_prc, .inp_grp_num, .show_prdct_ktgry{
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #1a7a69;
+    background-color: #f6e5c3;
+    padding: 2px;
+
+    margin: 1vb;
+    /* margin-left: auto; */
+
+}
+
+.inp_prdct_stock, .inp_prdct_prc, .inp_grp_num {
+    border: none;
+}
+
+.php_txt {
+    border-right: 1px solid #1a7a69;
+}
+
+.dskrpsyn_bttn_cont {
+    display: flex;
+    height: auto;
+}
+
+.dskrpsyn_inpt {
+    height: 200px;
+    background-color: #f6e5c3;
+
+}
+
+.bttns {
+    align-self: flex-end;
+}
+
+.save_prdct_bttn, .kansel_prdct_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    width: 150px;
+    font-family: Courier;
+    font-size: 16px;
+    margin: 2vb;
+    transition: background-color 0.6s;
+
+    align-self: flex-end;
+    height: 5vb;
+}
+
+.save_prdct_bttn:hover, .kansel_prdct_bttn:hover {
+    background-color: #0f6353;
+}
+
+.ktgry_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ktgry_lbl {
+    font-family: Courier;
+    color: #f6e5c3;
+
+}
+
+.mga_ktgrya {
+    background-color: #f6e5c3;
+    border: none;
+    font-family: Courier;
+    margin: 1vb;
+    height: 4vb;
+    width: 40vb;
+}

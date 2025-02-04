@@ -1,0 +1,92 @@
+#icon_settings {
+    /* font-size: 50px;  */
+    color: #1a7a69; 
+    transition: color 0.3s, background-color 0.3s; 
+    display: inline-block; 
+    margin: 10px; 
+    border-radius: 10px 30px 30px 10px;
+    cursor: pointer;
+}
+
+#menu_cont {
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a7a69;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    z-index: 1000;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5); */
+}
+
+#logout_cont {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6e5c3;
+    /* background-color: black; */
+    color: #1a7a69;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -52% -50%;
+    justify-content: space-around;
+    /* bottom: 50%;
+    right: 50%; */
+    z-index: 1000;
+    border-radius: 5px;
+    height: 40vh;
+    width: 40vw;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.yes_bttn, .no_bttn {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Courier New';
+    background-color: #1a7a69;
+    color: #f6e5c3;
+    margin: 2vb;
+    height: 5vb;
+    width: 7vb;
+
+    border: none;
+}
+
+.close-btn, .logout, .faqs_bttn {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Courier New';
+    color: #f6e5c3;
+    background-color: #1a7a69;
+    margin: 2vb;
+    border: none;
+}
+
+#like_message_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6e5c3;
+    /* background-color: black; */
+    color: #1a7a69;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -52% -50%;
+    justify-content: space-around;
+    /* bottom: 50%;
+    right: 50%; */
+    z-index: 1000;
+    border-radius: 5px;
+    height: 40vh;
+    width: 40vw;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}

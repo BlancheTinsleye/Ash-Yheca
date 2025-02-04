@@ -1,0 +1,140 @@
+.column_heading_as {
+    background-color: #1a7a69;
+    width: 1384px;
+    height: 80px;
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}   
+
+.ch1_as, .ch2_as, .ch3_as {
+    font-family: Courier;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #f6e5c3;
+
+    /* width: 200px; */
+}
+
+.ch1_as {
+    width: 150px;
+    padding-left: 100px;
+}
+
+.ch2_as {
+    padding-left: 260px;
+    width: 80px;
+}
+
+.ch3_as {
+    padding-left: 120px;
+}
+
+.prdct_cont{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 200px;
+    /* height: 400px; */
+    width: 1384px;
+
+    margin: 2vb;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.prdct_img {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+}
+
+.prdct_name {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+    
+    width: 300px;
+}
+
+.prdct_prc {
+    font-family: Courier;
+    font-size: 25px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    /* width: 80px; */
+    width: 170px;
+    margin-left: 10px;
+}
+
+.inp_bttn_cont {
+    display: flex;
+}
+
+.inp_val {
+    background-color: #f6e5c3;
+    width: 50px;
+    color: #1a7a69;
+    text-align: center;
+    border: 1px solid #1a7a69;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Courier New';
+    
+}
+
+.busisiin_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+    height: auto;
+    width: 200px;
+    border-radius: 1vb;
+    margin-left: 60px;
+    height: 7vb;
+    transition: background-color 0.5s;
+    /* margin: 1vb 1vb 1vb; */
+    /* width: ; */
+}
+
+.delete_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+    height: auto;
+    width: 200px;
+    height: 7vb;
+
+    border-radius: 1vb;
+    margin-left: 30px;
+    transition: background-color 0.5s;
+}
+
+.busisiin_bttn:hover {
+    background-color: #0f6353;
+}
+
+.add_prdct_bttn_cont, .shipped_bttn_cont, .delivered_bttn_cont {
+    margin-left: auto;
+}
+
+.add_prdct_bttn, .shipped_bttn, .delivered_bttn {
+    height: 5vb;
+    padding: 1vb;
+    background-color: #1a7a69;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+}

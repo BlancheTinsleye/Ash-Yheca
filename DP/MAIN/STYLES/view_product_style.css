@@ -1,0 +1,248 @@
+/* START */
+
+.vw_prdct_product_info_cont {
+    /* overflow-x: hidden; */
+    /* margin-top: 20px; */
+    width: auto;
+
+    /* height: 100px; */
+    /* background-color: pink; */
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.vw_prdct_img_cont {
+    /* height: 500px;
+    width: 500px; */
+
+    background-color: #1a7a69;
+
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vw_prdct_img {
+    width: 490px;
+    height: 490px;
+
+    /* width: auto;
+    height: auto; */
+
+    margin: 10px;
+
+    background-color: #f6e5c3;
+}
+
+.vw_prdct_info_cont {
+    height: 510px;
+    /* width: 100%; */
+    /* overflow-y: hidden; */
+
+    background-color: #1a7a69;
+
+    /* margin-right: 0px; */
+    margin: 10px;
+
+    font-family: 'Courier New';
+    color: #f6e5c3;
+    font-size: 30px;
+}
+
+.vw_prdct_bsc_info_cnt {
+    background-color: #1a7a69;
+    
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+
+}
+
+.vw_prdct_nm {
+    width: 400px;
+    height: 100px;
+
+    /* background-color: cadetblue; */
+    background-color: #1a7a69;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    border: 2px solid #f6e5c3;
+}
+
+.vw_prdct_prc_rate_cont {
+    /* border: 2px solid #f6e5c3; */
+    width: 350px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    background-color: #1a7a69;
+    border: 2px solid #f6e5c3;
+    
+    display: flex;
+    /* align-items: center; */
+}
+
+.vw_prdct_prc_rate_txt_cont {
+    margin: 10px;
+    /* width: 100px; */
+}
+
+.vw_prdct_prc_rate_cont p {
+    font-size: 25px;
+    /* text-align: right; */
+
+
+
+}
+
+.vw_prdct_dskrpsyn_cont {
+    border: 2px solid #f6e5c3;
+    margin: 10px;
+
+    height: 300px;
+
+}
+
+.vw_prdct_dskrpsyn_txt {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    
+}
+
+.vw_prdct_dskrpsyn {
+    margin-left: 10px;
+
+    overflow-y: auto;
+}
+
+.vw_prdct_dskrpsyn p {
+    height: 250px;
+
+}
+
+.vw_prdct_add_lks_byng_cont {
+    /* background-color: #1a7a69; */
+    /* background-color: pink; */
+    
+    display: flex;
+    align-items: center;
+
+    justify-content: right;
+}
+
+/* .vw_prdct_add_to_likes_bttn, .vw_prdct_add_to_byng_bttn {
+    background-color: #1a7a69;
+    color: #1a7a69;
+} */
+
+.vw_prdct_add_lks_byng_cont button {
+    border: none;
+    background-color: #1a7a69;
+    color: #f6e5c3;
+    font-size: 40px;
+    /* margin: 0px; */
+    padding: 0px;
+
+    height: 40px;
+    width: 40px;
+
+    margin: 10px;
+}
+
+#vw_prdct_add_to_likes_icon, #vw_prdct_add_to_byng_cont {
+    /* color: #f6e5c3; */
+    /* color: #1a7a69; */
+}
+
+.vw_prdct_other_cont {
+    /* height: 100px; */
+    width: 1318px;
+
+    margin-right: 55px;
+    margin-left: 60px;
+
+    /* background-color: burlywood; */
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: 'Courier New';
+    color: #f6e5c3;
+    font-size: 30px;
+
+    /* margin: 10px; */
+}
+
+.vw_prdct_suggested_prdcts_cont {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vw_prdct_suggested_prdcts {
+    margin-bottom: 10px;
+    width: 510px;
+    
+    background-color: #1a7a69;
+    
+    height: 170px;
+}
+
+.vw_prdcts_rvw_cont {
+    height: fit-content;
+    width: 788px;
+
+    background-color: #1a7a69;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews_txt {
+    margin: 10px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.vw_prdcts_rvw {
+    margin-bottom: 30px;
+    height: auto;
+    min-height: 250px;
+    width: 700px;
+    border: 2px solid #f6e5c3;
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.vw_prdcts_rvw_head {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.rvw_rate_txt {
+    width: 300px;
+    margin-right: 40px;
+}
+
+.rvw_content {
+    margin: 10px 10px;
+
+}
+

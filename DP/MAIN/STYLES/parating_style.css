@@ -1,0 +1,121 @@
+.column_heading_parating {
+    background-color: #1a7a69;
+    width: 1380px;
+    height: 80px;
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.ch1_prtng, .ch2_prtng, .ch3_prtng, .ch4_prtng {
+    /* background-color: #f6e5c3; */
+    font-family: Courier;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #f6e5c3;
+    /* color: #1a7a69; */
+    /* width: 200px; */
+}
+
+.ch1_prtng {
+    margin-left: 100px;
+}
+
+.ch2_prtng {
+    margin-left: 280px;
+}
+
+.ch3_prtng {
+    margin-left: 100px;
+}
+
+.ch4_prtng {
+    margin-left: 100px;
+}
+
+.prdct_cont_ippdl{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 200px;
+
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+}
+
+.prdct_img_prtng {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+
+    /* margin-left: 80px; */
+}
+
+.prdct_name_prtng {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 300px;
+}
+
+.ilan_prtng {
+    background-color: #f6e5c3;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    color: #1a7a69;
+    font-weight: bolder;
+    
+    margin-left: 0px;
+}
+
+.prdct_prc_prtng {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+    text-align: center;
+    width: 100px;
+    
+    margin-left: 110px;
+}
+
+.ttl_prtng {
+    background-color: #f6e5c3;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    color: #1a7a69;
+    font-weight: bolder;
+    
+    margin-left: 85px;
+}
+
+.trckng_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 1vb;
+    margin-left: 100px;
+    transition: background-color 0.5s;
+    /* margin: 1vb 1vb 1vb; */
+    /* width: ; */
+}
+
+.trckng_bttn:hover {
+    background-color: #0f6353;
+}

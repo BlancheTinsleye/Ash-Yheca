@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'cubao';
+    src: url('FONT/Cubao_Free_Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nickainly';
+    src: url('FONT/Nickainley-Normal.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    font-family: 'poppins', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    background-color: transparent; 
+    padding: 20px 0; 
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.navbar a {
+    color: #2e2e2e; 
+    font-size: 20px; 
+    width: 120px;
+    font-weight: 600; 
+
+    text-decoration: none; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: #1a7a69; 
+    color: #f6e5c3; 
+    transform: scale(1.05); 
+}
+
+.welcome-section {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    background-color: #2F7D66;
+    padding-top: 20px;
+    border-radius: 3vb;
+    margin-top: 20px;
+}
+
+.mabuhay-text {
+    width: 500px;
+    height: 200px;
+    color: #FDD943;
+    text-shadow: 2px 2px 2px #2F7D66, -3px -2px 2px #F04679, -6px 2px 2px #2E96F7;
+}
+
+.welcome-text {
+    color: #f6e5c3;
+    font-size: 24px;
+    max-width: 500px;
+    padding-left: 30px;
+    line-height: 1.6;
+}
+
+text {
+    font-family: 'nickainly', sans-serif;
+}
+
+.crsl_cnt {
+    font-family: 'poppins', sans-serif;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* width: 1400px; */
+}
+
+.carousel, .search_rslt_cont {
+    display: flex;
+
+    margin-top: 2vb;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: relative; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.prdct_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 10px; */
+
+    margin: 3vb;
+}
+
+.prdct_cont_search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+    /* color: #1a7a69; */
+
+    /* flex-direction: column; */
+}
+
+.info_cont_search {
+    text-align: center;
+    font-size: 18px;
+    width: 15vb;
+    color: #006F66;
+    font-weight: bold;
+    background-color: #f6e5c3;
+    padding: 50px;
+}
+
+.prdct_name_search, .prdct_prc_search {
+    color: #1a7a69;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.carousel .arrow {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px;
+    color: #1a7a69;
+    transition: color 0.3s ease;
+}
+
+.carousel .arrow:hover {
+    color: #FDD943;
+}
+
+/* Info Section */
+.info-section {
+    text-align: center;
+    font-size: 18px;
+    width: 15vb;
+    color: #006F66;
+    font-weight: bold;
+    background-color: #f6e5c3;
+    padding: 50px;
+}
+
+.prdct_fltr_cont {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    /* display: grid;
+    grid-template-columns: auto auto; */
+
+    align-self: center;
+
+}
+
+.clck_product {
+    text-decoration: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    
+    text-align: center;
+
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0px;
+}
+
+.product {
+    background-color: #1a7a69;
+    margin: 1vb;
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.prdcts_cont {
+    /* width: 100%; */
+    /* height: 850px;  */
+    /* overflow-y: auto;  */
+    /* padding: 3rem 0;  */
+    /* box-sizing: border-box; */
+    display: flex;
+    /* justify-content: flex-start ; */
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.section_cont {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.categories-products-container {
+    display: flex;
+    gap: 20px; /* Space between categories and products */
+    align-items: flex-start; /* Align both sections at the top */
+    width: 1400px;
+}
+
+.filter_form {
+    color: #1a7a69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New';
+}
+
+.fltr_txt {
+    font-size: 3vb;
+    font-weight: bold;
+}
+
+#filter_type, #order_type {
+    font-family: 'Courier New';
+    background-color: #f6e5c3;
+    margin: 2vb;
+    font-size: 2vb;
+}
+
+.ayusin_bttn {
+    background-color: #1a7a69;
+    height: 8vb;
+    width: 25vb;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+}

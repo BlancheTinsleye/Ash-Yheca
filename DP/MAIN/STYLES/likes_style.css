@@ -1,0 +1,37 @@
+.liked_products {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 4vh;
+}
+
+.prdct_cont{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+
+    margin: 2vb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prdct_img {
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.prdct_name, .prdct_prc, .prdct_rate {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 200px;
+}
+
+

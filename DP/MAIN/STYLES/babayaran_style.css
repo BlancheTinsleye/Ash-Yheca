@@ -1,0 +1,150 @@
+.column_heading_babayaran {
+    background-color: #1a7a69;
+    width: 1380px;
+    height: 80px;
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.ch1_bbyrn, .ch2_bbyrn, .ch3_bbyrn {
+    font-family: Courier;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #f6e5c3;
+
+    /* width: 200px; */
+}
+
+.ch1_bbyrn {
+    padding-left: 100px;
+}
+
+.ch2_bbyrn {
+    padding-left: 300px;
+}
+
+.ch3_bbyrn {
+    padding-left: 165px;
+}
+
+
+.prdct_cont{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 200px;
+    /* height: 400px; */
+    /* width: 250px; */
+
+    margin: 2vb;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.prdct_img {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+}
+
+.prdct_prc {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 200px;
+}
+
+.prdct_name {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 300px;
+}
+
+.inp_bttn_cont {
+    display: flex;
+}
+
+.inp_val {
+    background-color: #f6e5c3;
+    width: 50px;
+    color: #1a7a69;
+    text-align: center;
+    border: 1px solid #1a7a69;
+}
+
+.minus, .plus {
+    background-color: #f6e5c3;
+    border: 1px solid #1a7a69;
+    height: 30px;
+    width: 30px;
+    color: #1a7a69;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Hide default checkbox */
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Custom checkbox style */
+.cb-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cb-label::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1a7a69;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: #f6e5c3;
+    transition: background-color 0.3s ease;
+}
+
+/* Checked state */
+input[type="checkbox"]:checked + .cb-label::before {
+    background-color: #f6e5c3;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="rgb(26, 122, 105)" d="M6.3 12.1L2.2 8 3.6 6.6l2.7 2.7 6.1-6.1 1.4 1.4z"/%3E%3C/svg%3E');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.ikansela_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 1vb;
+    margin-left: 150px;
+    transition: background-color 0.5s;
+    /* margin: 1vb 1vb 1vb; */
+    /* width: ; */
+}
+
+.ikansela_bttn:hover {
+    background-color: #0f6353;
+}

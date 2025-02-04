@@ -1,0 +1,115 @@
+.navbar {
+    font-family: 'poppins', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    background-color: transparent; 
+    padding: 20px 0; 
+    border-radius: 10px; 
+}
+
+.navbar a {
+    color: #2e2e2e; 
+    font-size: 20px; 
+    width: 120px;
+    font-weight: 600; 
+
+    text-decoration: none; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: #1a7a69; 
+    color: #f6e5c3; 
+    transform: scale(1.05); 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    width: 80vw;
+    height: 450px;
+    background-color: transparent;
+
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+
+    margin-top: 5vb;
+}
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+.main-image img {
+    width: 400px;
+    height: auto;
+    border: 50px solid #1a7a69;
+}
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnails img {
+    width: 150px;
+    height: 150px;
+    border: 20px solid #52ab9b;
+}
+.details {
+    text-align: center;
+    font-size: 18px;
+}
+
+.actions_cont {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin-top: 7vb; */
+    /* justify-content: flex-end; */
+    width: 100%;
+}
+
+.actions button:hover {
+    background-color: #004d40;
+}
+
+#icon_heart {
+    font-size: 24px;
+    color: #52ab9b;
+    cursor: pointer;
+
+    margin-left: 100px;
+    /* align-self: flex-end; */
+    /* margin-left: auto; */
+}
+.addtocart_bttn {
+    /* margin-left: auto; */
+
+}
+.addtocart_bttn, .check_out_bttn {
+    background-color: #52ab9b;
+    height: 8vb;
+    width: 20vb;
+    margin: 2vb;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+
+.tumb_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_nm, .price, .rate {
+    font-family: 'Courier New';
+    color: #1a7a69;
+    font-weight: bold;
+    font-size: 25px;
+}

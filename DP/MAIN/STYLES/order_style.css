@@ -1,0 +1,136 @@
+.prdct_cont{
+    background-color: #1a7a69;
+    /* display: inline-block; */
+    height: 200px;
+    width: 1384px;
+    /* height: 400px; */
+    /* width: 250px; */
+
+    margin: 2vb;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.column_heading_nakuha {
+    background-color: #1a7a69;
+    width: 1380px;
+    height: 80px;
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.ch1_nkh, .ch2_nkh, .ch3_nkh, .ch4_nkh {
+    /* background-color: #f6e5c3; */
+    font-family: Courier;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #f6e5c3;
+    /* color: #1a7a69; */
+    /* width: 200px; */
+}
+
+.ch1_nkh {
+    margin-left: 100px;
+}
+
+.ch2_nkh {
+    margin-left: 280px;
+}
+
+.ch3_nkh {
+    margin-left: 100px;
+}
+
+.ch4_nkh {
+    margin-left: 100px;
+}
+
+.prdct_cont_ippdl{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 200px;
+
+    margin: 2vb;
+
+    display: flex;
+    align-items: center;
+}
+
+.prdct_img_nkh {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+
+    /* margin-left: 80px; */
+}
+
+.prdct_name_nkh {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 300px;
+}
+
+.ilan_nkh {
+    background-color: #f6e5c3;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    color: #1a7a69;
+    font-weight: bolder;
+    
+    margin-left: 0px;
+}
+
+.prdct_prc_nkh {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+    text-align: center;
+    width: 100px;
+    
+    margin-left: 110px;
+}
+
+.ttl_nkh {
+    background-color: #f6e5c3;
+    width: 80px;
+    margin: 0px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    color: #1a7a69;
+    font-weight: bolder;
+    
+    margin-left: 85px;
+}
+
+.impormasyon_bttn {
+    background-color: #59b6a6;
+    border: none;
+    color: #f6e5c3;
+    font-family: 'Courier New';
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 1vb;
+    margin-left: 100px;
+    transition: background-color 0.5s;
+    /* margin: 1vb 1vb 1vb; */
+    /* width: ; */
+}
+
+.impormasyon_bttn:hover {
+    background-color: #0f6353;
+}

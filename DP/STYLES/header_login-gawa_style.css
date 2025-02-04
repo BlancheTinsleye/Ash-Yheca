@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'cubao';
+    src: url('FONT/Cubao_Free_Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: #f6e5c3;
+
+    display: flex;
+    justify-content: center;
+}
+
+.section_cont { /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>SECTION*/
+    width: 100%;
+    /* height: 930px; */
+
+    background: #1a7a69;
+    /* align-items: center; */
+    /* border: 4px solid red; */
+}
+
+.header_cont { /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEADER*/
+    /* height: 150px; */
+    background: #f6e5c3;
+    padding-top: 4vb;
+    padding-bottom: 4vb;
+}
+.top_cont { /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>TOP LANGUAGES CONTAINER*/
+    padding-top: 20px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: #f6e5c3;
+}
+
+.languages {
+    font-family:'Courier New';
+}
+
+.lang_dd, .taglish{
+    font-family:'Courier New';
+    font-size: 15px;
+    
+    border: none;
+    background: #f6e5c3;
+}
+.language_slct {
+    margin-right: 80px;
+}
+
+.logo-page_name-icons { /*>>>>>>>>>>LOGO PAGE-NAME ICONS-NAVIGATIONS*/
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.logo_cont {
+    margin-left: 80px;
+    display: flex;
+    text-align: center;
+    
+}
+.logo {
+    color: #333;
+    font-size: 40px;
+    font-family: 'cubao';
+    text-decoration: none;
+    display: flex;
+}
+.img {
+    width: 50px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.D {
+    color: #5486b9;
+}
+.P {
+    color: #c44838;
+    padding-right: 25px;
+}
+
+.page_name {
+    font-family: Courier;
+    border-left: 2px solid #333;
+    padding-left: 20px;
+    margin-top: 5px;
+
+    height: 30px;
+    font-size: 28px;
+}
+
+.icons_cont {
+    margin-right: 110px;
+}
+
+#icon_heart, #icon_sb, #icon_profile {
+    font-size: 50px; 
+    color: #1a7a69; 
+    transition: color 0.3s, background-color 0.3s; 
+    display: inline-block; 
+    margin: 10px; 
+    border-radius: 30px; 
+}
+
+#icon_profile {
+    font-size: 55px;
+}
+
+#icon_heart:hover {
+    color: #c44838;
+}
+#icon_sb:hover {
+    color: #f4d35e;
+}
+#icon_profile:hover {
+    color: #5486b9; 
+}
+
+#icon_heart:enabled {
+    color: #c44838; 
+}
+
+.language_cont {
+    background-color: #f6e5c3;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4vb;
+}

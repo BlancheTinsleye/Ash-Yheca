@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'cubao';
+    src: url('FONT/Cubao_Free_Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nickainly';
+    src: url('FONT/Nickainley-Normal.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    width: 1340px;
+    background-color: #1a7a69;
+    padding-top: 20px;
+}
+
+.mabuhay-text {
+    width: 500px;
+    height: 200px;
+    color: #FDD943;
+    text-shadow: 2px 2px 2px #2F7D66, -3px -2px 2px #F04679, -6px 2px 2px #2E96F7;
+}
+
+.welcome-text {
+    color: #f7eed2;
+    font-size: 30px;
+    max-width: 500px;
+    padding-left: 30px;
+    line-height: 1.6;
+}
+.mensahe p {
+    font-family: 'poppins', sans-serif;
+    padding: 20px;
+}
+
+text {
+    font-family: 'nickainly', sans-serif;
+}
+
+.info_cnt {
+    display: flex;
+    align-items: center;
+}
+
+.info_cnt .profile {
+    text-align: center;
+    align-content: center;
+    background: #1a7a69;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.profile .palit {
+    margin: 110px 20px;
+    position: absolute;
+    background: #59b6a6;
+    border: 1px solid #1a7a69;
+    border-radius: 15px;
+    height: 45px;
+    width: 19vw;
+    transition: background-color 0.5s;
+    cursor: pointer;
+
+    color: #f7eed2;
+    font-size: 22px;
+    text-align: center;
+}
+.profile .palit:hover {
+    background: #0f6353;
+}
+.profile .palit p {
+    padding-top: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.info_cnt .info {
+    background: #1a7a69;
+    margin: 20px;
+    width: 950px;
+    height: 350px;
+
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    color: #f7eed2;
+}
+
+.info .f {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 40px;
+    display: flex;
+
+}
+
+.info .f p {
+    width: 370px;
+}
+
+.info .ed_cnt {
+    display: flex;
+}
+
+.info .ed_cnt .edit {
+    margin: 60px 40px;
+    cursor: pointer;
+
+    border: 1px solid #1a7a69;
+    border-radius: 20px;
+    background: #59b6a6;
+    transition: background-color 0.5s;
+
+    width: 22vw;
+    height: 70px;
+}
+
+.info .ed_cnt .edit:hover {
+    background: #0f6353;
+}
+
+.ed_cnt {
+    justify-content: center;
+    align-items: center;
+}
+
+.edit p, a{
+    color: #f7eed2;
+    text-decoration: none;
+    font-size: 22px;
+
+    padding-top: 22px;
+    text-align: center;
+}
+
+.info .ed_ed_cnt {
+    display: flex;
+}
+
+.info .ed_cnt .ed_edit {
+    margin: 60px 40px;
+    cursor: pointer;
+
+    border: 1px solid #1a7a69;
+    border-radius: 20px;
+    background: #59b6a6;
+    transition: background-color 0.5s;
+
+    width: 12vw;
+    height: 60px;
+}
+
+.info .ed_ed_cnt .ed_edit:hover {
+    background: #0f6353;
+}
+
+.ed_edit p, a{
+    color: #f7eed2;
+    text-decoration: none;
+    font-size: 18px;
+
+    /* padding-top: 20px; */
+    text-align: center;
+}
+
+.view_pinamili, .edit_profile_bttn {
+    background-color: #59b6a6;
+    /* font-family: 'Courier New'; */
+}
+
+.bttns_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2vb;
+    /* align-self: baseline; */
+}
+
+.edit_form, .view_mga_pinamili {
+}
+
+.edit_profile_bttn, .view_pinamili {
+    border: none;
+    margin: 4vb;
+
+    height: 6vb;
+    width: 20vb;
+}

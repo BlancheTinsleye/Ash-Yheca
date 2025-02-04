@@ -1,0 +1,73 @@
+.ctgrs-prdcts_cnt {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+.ctgrs_cnt {
+    font-family: sans-serif;
+    font-size: 30px;
+
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+
+    width: 200px;
+    
+}
+
+.ctgry {
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px; /* Margin for spacing */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and scaling */
+}
+
+.ctgry:hover {
+    background-color: #1a7a69; /* Background color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.cry {
+    width: 130px;
+    text-decoration: none; /* Remove underline from links */
+    color: #1a7a69; /* Default text color */
+    display: block; /* Make the link fill the list item */
+    padding: 10px 20px; /* Add padding around the link */
+    border-radius: 10px; /* Match the list item's border radius */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.cry:hover {
+    color: #f6e5c3; /* Change text color on hover */
+}
+
+/* Active state styles */
+.ctgry.active {
+    background-color: #f4d35e; /* Background for the active category */
+}
+
+
+
+.clck_product {
+    /* padding: none;
+    cursor: pointer; */
+}
+
+.head{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 350px;
+    width: 280px;
+
+    margin: 1vb 2vb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
